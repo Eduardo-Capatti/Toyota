@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif !important;
+    background: linear-gradient(to bottom, #858181, #CAC5C5, #FFF, #DFDADA);
+}
+
+header, #video, footer{
+    background: #000;
+}
+
+/*Inicio cabeçalho e nav*/
+
+.navbar-dark .navbar-nav a.nav-link {
+    color: #fff ;
+    font-size: 20px;
+    margin: 0 18px;
+    text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav a.nav-link:hover{
+    color: #989898;
+}
+
+.dropdown-menu{
+    background: #000 !important;
+    border-top: 1px solid #fff !important;
+}
+.dropdown-item:hover{
+    background: #fff !important;
+    color: #000 !important;
+}
+/*Fim cabeçalho e nav*/
+
+/*Inicio seção Vantagens*/
+#vantagens, #slide{
+    margin: 66px 0;
+    text-transform: uppercase;
+}
+
+
+div.estilizacao a{
+    text-decoration: none;
+    font-size: 30px;
+}
+
+/*fim seçao vantagens*/
+
+/*inicio seção slide*/
+.imagem-slide{
+    transition: transform 1s;
+}
+.imagem-slide:hover{
+    transform: rotate(-15deg);
+}
+
+.link-slide{
+    text-decoration: none;
+    color: #000;
+}
+
+.link-slide:hover{
+    color: #989898;
+}
+
+.botao-link{
+    width: 15% !important;
+    padding: 10px !important;
+    border-radius: 30px !important;
+    margin-top: 40px !important;
+}
+
+.padding-interessado{
+    margin-bottom: 125px !important;
+}
+
+.fa-chevron-left, .fa-chevron-right {
+    font-size: 50px;
+}
+/*Fim seção slide*/
+
+
+
+
+/*inicio rodape*/
+.link-redes:hover{
+    color: #ff0000 !important;
+}
+
+.rodape-texto {
+    color: #fff;
+    margin: 0 10px; 
+}
+
+.rodape-link{
+    color: #fff;
+    margin: 0 25px;
+}
+
+.rodape-link:hover{
+    color: #ff0000;
+    text-decoration: none;
+}
+/*fim rodape*/
+
+
+
+
+
+/*Tipografia*/
+.conteudo h1{
+    font-size: 3em;
+    margin: 30px 0;
+}
+
+.conteudo h2{
+    color: #000;
+    font-weight: 900;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.conteudo p{
+    text-transform:none;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.carro-nome {
+    font-weight: bolder;
+    text-transform: uppercase !important;
+    font-size: 1.25em  !important;
+}
+/*fim tipografia*/
+
+
+@media (max-width: 575.98px) {
+
+    .conteudo-esg{
+        margin-right: 0px;
+        padding: 0;
+    }
+    .conteudo-manutencao{
+        margin-left: 0px;
+        padding: 0;
+        
+    }
+
+    .conteudo h1{
+        font-size: 1.75em;
+        margin: 30px 0;
+    }
+    .conteudo h2{
+        color: #000;
+        font-weight: 900;
+        font-size: 1.5em;
+    }
+
+
+    .botao-link{
+        width: 50% !important;
+        padding: 10px !important;
+        border-radius: 30px !important;
+        margin-top: 40px !important;
+    }
+
+    div.estilizacao a{
+        text-decoration: none;
+        font-size: 25px;
+    }
+
+    .rodape-link{
+        color: #fff;
+        margin: 5px;
+    }
+
+}
+
+@media (min-width: 576px) {
+    
+
+    .conteudo h1{
+        font-size: 2.25em;
+        margin: 30px 0;
+    }
+    
+    .conteudo h2{
+        color: #000;
+        font-weight: 900;
+        font-size: 1.0em;
+    }
+    
+    .conteudo p{
+        text-transform:none;
+        font-size: 12.5px;
+        
+        
+    }
+
+    .botao-link{
+        width: 30% !important;
+        padding: 10px !important;
+        border-radius: 30px !important;
+        margin-top: 40px !important;
+    }
+    
+    .rodape-link{
+        color: #fff;
+        margin: 10px 5px;
+    }
+    
+}
+
+@media (min-width: 768px) {
+    .conteudo-esg{
+        margin-right: 20px;
+    }
+    .conteudo-manutencao{
+        margin-left: 20px;
+        
+    }
+
+    .conteudo h1{
+        font-size: 2.25em;
+        margin: 30px 0;
+    }
+    
+    .conteudo h2{
+        color: #000;
+        font-weight: 900;
+        font-size: 1.25em;
+    }
+    
+    .conteudo p{
+        text-transform:none;
+        font-size: 12.5px;
+        
+        
+    }
+}
+
+@media (min-width: 992px) {
+    .conteudo h1{
+        font-size: 3em;
+        margin: 30px 0;
+    }
+    
+    .conteudo h2{
+        color: #000;
+        font-weight: 900;
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+    
+    .conteudo p{
+        text-transform:none;
+        font-size: 20px;
+        text-align: justify;
+    }
+}
+
+
