@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "brRqPZNF5fM=",
+  "dgSpecHash": "ztmVIFeium0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\eduardo\\Desktop\\Toyota\\ProjetoLoja2.csproj",
+  "projectFilePath": "c:\\Users\\eduardo\\Desktop\\Toyota\\ProjetoLoja2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eduardo\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.30\\microsoft.netcore.app.ref.8.0.30.nupkg.sha512",
     "C:\\Users\\eduardo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.30\\microsoft.windowsdesktop.app.ref.8.0.30.nupkg.sha512",
